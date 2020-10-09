@@ -53,6 +53,7 @@ public class TekstCommand extends MusicCommand {
         name = "tekst";
         requireConnection = false;
         uzycie = new Uzycie("tytul", "string", false);
+        aliases = new String[] {"text", "slowa"};
         allowPermLevelChange = false;
     }
 
