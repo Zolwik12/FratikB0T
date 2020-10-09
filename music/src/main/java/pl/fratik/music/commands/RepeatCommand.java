@@ -40,7 +40,7 @@ public class RepeatCommand extends MusicCommand {
         this.guildDao = guildDao;
         name = "repeat";
         requireConnection = true;
-        aliases = new String[] {"loop"};
+        aliases = new String[] {"loop", "powtorz"};
     }
 
     @Override
