@@ -37,7 +37,7 @@ public class SkipCommand extends MusicCommand {
         this.guildDao = guildDao;
         name = "skip";
         requireConnection = true;
-        aliases = new String[] {"pomin", "pass", "passer"};
+        aliases = new String[] {"pomin", "pass", "passer", "next"};
     }
 
     @Override
