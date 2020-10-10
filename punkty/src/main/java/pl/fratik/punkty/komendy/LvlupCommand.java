@@ -37,7 +37,7 @@ public class LvlupCommand extends Command {
         this.licznik = licznik;
         this.managerArgumentow = managerArgumentow;
         name = "lvlup";
-        aliases = new String[] {"pktNaPoziom", "getPoziom", "zaIleLevelUp", "kiedyNastepnyPoziom", "ilePunktowNaPoziom"};
+        aliases = new String[] {"pktNaPoziom", "getPoziom", "zaIleLevelUp", "kiedyNastepnyPoziom", "ilePunktowNaPoziom", "nextLvl"};
         category = CommandCategory.POINTS;
         allowPermLevelChange = false;
     }
