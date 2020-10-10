@@ -29,7 +29,7 @@ public class ShuffleCommand extends MusicCommand {
 
     public ShuffleCommand(NowyManagerMuzyki managerMuzyki, GuildDao guildDao) {
         name = "shuffle";
-        aliases = new String[] {"shufflequeue", "mieszajkolejka", "randomqueue"};
+        aliases = new String[] {"shufflequeue", "mieszajkolejka", "randomqueue", "pomieszaj"};
         requireConnection = true;
         this.managerMuzyki = managerMuzyki;
         this.guildDao = guildDao;
